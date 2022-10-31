@@ -14,8 +14,8 @@
 --w_chamfer 0.1
 --root logs/
 --loss GaussianNLL
---data_path /content/drive/My Drive/Data/Data_preprocessing/Data.csv/nyu_depth_v2/official_splits/train
---gt_path /content/drive/My Drive/Data/Data_preprocessing/Data.csv/nyu_depth_v2/official_splits/train
+--data_path ../drive/My Drive/nyu_depth_v2/official_splits/train
+--gt_path ../drive/My Drive/nyu_depth_v2/official_splits/train
 --filenames_file ./train_test_inputs/training_set.txt
 --input_height 416
 --input_width 544
