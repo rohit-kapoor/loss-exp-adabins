@@ -11,11 +11,10 @@
 --name UnetAdaptiveBins
 --n_bins 256
 --norm linear
---w_chamfer 0.1
+-- loss GaussianNLL
 --root logs/
---loss GaussianNLL
---data_path ../drive/My Drive/nyu_depth_v2/official_splits/train
---gt_path ../drive/My Drive/nyu_depth_v2/official_splits/train
+--data_path ../drive/MyDrive/nyu_depth_v2/official_splits/train
+--gt_path ../drive/MyDrive/nyu_depth_v2/official_splits/train
 --filenames_file ./train_test_inputs/training_set.txt
 --input_height 416
 --input_width 544
@@ -24,9 +23,9 @@
 --do_random_rotate
 --degree 2.5
 --validate_every 100
---data_path_eval ./data/NYUv2/official_splits/test/
---gt_path_eval ./data/NYUv2/official_splits/test/
---filenames_file_eval ./train_test_inputs/nyudepthv2_test_files_with_gt.txt
+--data_path_eval ../drive/MyDrive/nyu_depth_v2/official_splits/test
+--gt_path_eval ../drive/MyDrive/nyu_depth_v2/official_splits/test
+--filenames_file_eval ./train_test_inputs/test_set.txt
 --min_depth_eval 1e-3
 --max_depth_eval 10
 --eigen_crop
